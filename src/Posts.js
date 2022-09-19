@@ -47,7 +47,7 @@ export default function Posts() {
 
   return (
     <ul class="posts">
-      {posts.map((p) => <Post imagemPerfil={p.imagemPerfil} nomePerfil={p.nomePerfil} fotoPost={p.fotoPost} imagemCurtida={p.imagemCurtida} nomeCurtida={p.nomeCurtida} QtdCurtidas={p.QtdCurtidas} />)}
+      {posts.map((p) => <Post imagemPerfil={p.imagemPerfil} nomePerfil={p.nomePerfil} fotoPost={p.fotoPost} imagemCurtida={p.imagemCurtida} nomeCurtida={p.nomeCurtida} qtdCurtidas={p.qtdCurtidas} />)}
     </ul>
   )
 }

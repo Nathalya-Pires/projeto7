@@ -4,7 +4,7 @@ import NavBar from "./NavBar"
 
 
 
-import Usuario from "./Usuario"
+
 
 
 export default function App() {
