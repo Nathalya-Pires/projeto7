@@ -88,6 +88,7 @@ body {
 }
 
 .sideBar {
+  margin-left: 25px;
   width: 293px;
 }
 
@@ -147,6 +148,7 @@ body {
   color: #FFF;
   font-size: 28px;
   cursor: pointer;
+  filter: drop-shadow(0 0 7px gray);
 }
 
 .post {
@@ -210,6 +212,10 @@ body {
 
 .post:last-child {
   margin-bottom: 18px;
+}
+
+.like {
+  color:red;
 }
 
 .sideBar {

@@ -16,7 +16,7 @@ export default function Usuario() {
     const [foto, setFoto] = React.useState(fotoPadrao)
 
     function alteraFoto() {
-        const fotoPrompt = prompt ("Altere sua foto de usuário")
+        const fotoPrompt = prompt ("Insira o link da sua nova foto de usuário")
         setFoto(fotoPrompt)
     }
 

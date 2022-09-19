@@ -7,7 +7,7 @@ export default function Creditos() {
             </div>
 
             <div class="copyright">
-                © 2022 INSTAGRAM DO FACEBOOK
+                © 2022 INSTAGRAM FROM META
             </div>
         </div>
     )
